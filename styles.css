@@ -47,15 +47,18 @@
 }
 
 .Img-Introduction {
-  max-width: 30%;
+  max-width: 100%;
+}
+.subContainer-text {
+  flex-basis: 0;
+  flex-grow: 2;
 }
 
-.subContainer + .subContainer {
+.subContainer + .subContainer-text {
   margin-left: var(--m);
 }
 
 .Introction-Container {
-  /* background-color: rgb(207, 207, 207); */
   margin-top: var(--l);
   padding: var(--x);
 }
