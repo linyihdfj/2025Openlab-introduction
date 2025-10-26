@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+DE+SAS:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+  --xl: 32px;
+  --xxl: 40px;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.APP-Container {
+  padding: var(--m);
+  width: 960px;
+  margin: var(--s) auto;
+}
+
+.Avatar-Container {
+  margin: 0 40%;
+}
+
+.Avatar-img {
+  max-width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  margin: 0 auto;
+}
+
+.Name-text {
+  text-align: center;
+  font-family: "Playwrite DE SAS", cursive;
+  font-size: var(--xl);
+  margin-top: var(--m);
+}
+
+.Line-softer {
+  border-color: #cdcdcd;
+}
+
+.subContainer {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.Img-Introduction {
+  max-width: 30%;
+}
+
+.subContainer + .subContainer {
+  margin-left: var(--m);
+}
+
+.Introction-Container {
+  /* background-color: rgb(207, 207, 207); */
+  margin-top: var(--l);
+  padding: var(--x);
+}
+
+.u-textcenter {
+  text-align: center;
+  margin: auto 0;
+}
+
+.Img-Round {
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
